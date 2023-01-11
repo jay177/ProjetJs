@@ -88,6 +88,12 @@ function dark(){
 
   
 }
+function change(){
+  var element = document.body;
+  element.style.background = "linear-gradient(to right, #D4D3DD, #4b6043)";
+
+  
+}
 
 function white(){
   var element = document.getElementById("poke_container1");
@@ -101,6 +107,7 @@ document.addEventListener('keyup', event => {
     
     dark();
     white();
+    change();
   
   }
 })
