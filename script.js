@@ -1,6 +1,6 @@
 const poke_container = document.getElementById('poke_container');
 const poke_container1 = document.getElementById('poke_container1');
-const pokemons_number = 150; // fixe le nombre de pokemon maximun a afficher
+const pokemons_number = 10; // fixe le nombre de pokemon maximun a afficher
 // permet de faire une itération pour que les pokemon soit afficher de 1 jusqu'au nombre choisi
 const fetchPokemons = async () => {
   for (let i = 1; i <= pokemons_number; i++) {
